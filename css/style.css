@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+
+.header_container{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1505336098893-b30f66fadfa7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.header_container p{
+    padding-top: 10%;
+    text-align: left;
+    color: white;
+    filter: opacity(0);
+    transition: 0.4s;
+}
+
+.header_container:hover > p{
+    padding-top: 10%;
+    text-align: left;
+    color: white;
+    filter:opacity(100);
+    transition: 0.4s;
+}
+
+.header_content{
+    display:inline-block;
+    justify-content: center;
+}
+
+.main{
+    /* Gör till wrapper*/
+}
+
+.main table{
+    display:inline-block;
+    justify-content: center;
+    display:flex;
+}
+
+.player{
+    padding-left: 4vw;
+}
+
+#title{
+    font-size: 400%;
+    padding-top: 24%;
+}
+
+#title_2{
+    font-size: 250%;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
