@@ -1,3 +1,13 @@
+/*FONTS*/
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'EB Garamond',serif;
+    font-size: 19px;
+}
+
 body{
     margin:0;
 }
@@ -12,7 +22,7 @@ body{
 }
 
 .header_container p{
-    padding-top: 10%;
+    padding-top: 201px;
     text-align: left;
     color: white;
     filter: opacity(0);
@@ -20,7 +30,6 @@ body{
 }
 
 .header_container:hover > p{
-    padding-top: 10%;
     text-align: left;
     color: white;
     filter:opacity(100);
@@ -36,6 +45,13 @@ body{
     /* Gör till wrapper*/
 }
 
+.main h2{
+    padding: 1vw;
+    text-align: center;
+    font-size: 200%
+    
+}
+
 .main table{
     display:inline-block;
     justify-content: center;
@@ -44,6 +60,11 @@ body{
 
 .player{
     padding-left: 4vw;
+}
+
+.Covers th{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #title{
@@ -58,4 +79,5 @@ body{
 
 h1{
     color: white;
+    text-shadow: 2px 2px 25px black;
 }
